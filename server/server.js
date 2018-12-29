@@ -16,6 +16,10 @@ app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 app.use(cookieParser());
 
+// Models
+const { User } = require('./models/user');
+
+
 //--------------------------------------------
 // -----     USERS    ------    USERS -------
 //-------------------------------------------
